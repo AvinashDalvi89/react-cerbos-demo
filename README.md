@@ -77,6 +77,7 @@ npm start
 
 - Go to /login page user login details are given there. 
 - Admin and contact page is developed for testing access control using Cerbos API. After login can go to /admin or /contact page to see the access. 
+- If you wish to test using Cerbos playground then just open /src/lib/Cerbos.tsx change ` let usePlayground = true;` it will use playground code. You can use either Cerbos playground API or Cerbos Hub PDP instance or Cerbos local policy API. 
 
 ### Demo 
 - https://codesandbox.io/p/github/AvinashDalvi89/react-cerbos-demo
