@@ -19,7 +19,7 @@ export default function Login() {
         "Ajay": "admin",
         "Suresh": "user",
         "Priya": "user",
-        "Garry": "user"
+        "Garry": "marketing"
       };
       const username = target.username.value; // typechecks!
       const password = target.password.value; // typechecks! 

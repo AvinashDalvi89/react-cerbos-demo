@@ -1,0 +1,14 @@
+---
+apiVersion: api.cerbos.dev/v1
+resourcePolicy:
+  version: default
+  resource: contact
+  rules:
+    - actions: ["*"]
+      effect: EFFECT_ALLOW
+      roles:
+        - admin 
+    - actions: ["read","add"]
+      effect: EFFECT_ALLOW
+      roles:
+        - marketing 
