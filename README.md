@@ -75,6 +75,8 @@ Use the following command to run :
 npm start
 ```
 
+- Go to /login page user login details are given there. 
+- Admin and contact page is developed for testing access control using Cerbos API. After login can go to /admin or /contact page to see the access. 
 
 ### Demo 
 - https://codesandbox.io/p/github/AvinashDalvi89/react-cerbos-demo
