@@ -58,7 +58,7 @@ git clone https://github.com/AvinashDalvi89/react-cerbos-demo/
 2. Change to the project directory:
 
 ```sh
-cd 
+cd react-cerbos-demo
 ```
 
 3. Install the dependencies:
