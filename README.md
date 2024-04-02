@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/external-readme-is-a-easy-to-build-a-developer-hub-that-adapts-to-the-user-logo-regular-tal-revivo.png" width="100" />
+<img width="373" alt="Screenshot 2024-04-02 at 10 50 22 PM" src="https://github.com/AvinashDalvi89/react-cerbos-demo/assets/3996105/2dccc46d-2868-4f4c-8575-d5995ef2050f" width="100">
+
 </p>
 <p align="center">
     <h1 align="center"></h1>
