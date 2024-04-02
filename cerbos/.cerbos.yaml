@@ -1,0 +1,5 @@
+storage:
+  driver: disk
+  disk:
+    directory: /basic-crud/policies
+    watchForChanges: true
