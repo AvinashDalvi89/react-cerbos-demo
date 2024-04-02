@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/external-readme-is-a-easy-to-build-a-developer-hub-that-adapts-to-the-user-logo-regular-tal-revivo.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center"></h1>
+</p>
+<p align="center">
+    <em>Cerbos integration with React app for authorisation</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/AvinashDalvi89/react-cerbos-demo?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/AvinashDalvi89/react-cerbos-demo?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/AvinashDalvi89/react-cerbos-demo?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/AvinashDalvi89/react-cerbos-demo?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
+	<img src="https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=YAML&logoColor=white" alt="YAML">
+	<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+	<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+</p>
+<hr>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  Quick Links
 
-## Available Scripts
+> - [ Overview](#-overview)
+> - [ Getting Started](#-getting-started)
+>   - [ Installation](#-installation)
+>   - [ Running ](#-running-)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+##  Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+HTTP error 401 for prompt `overview`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##  Getting Started
 
-### `npm test`
+***Requirements***
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ensure you have the following dependencies installed on your system:
 
-### `npm run build`
+* **TypeScript**: `version x.y.z`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###  Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the  repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+git clone https://github.com/AvinashDalvi89/react-cerbos-demo/
+```
 
-### `npm run eject`
+2. Change to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+cd 
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+###  Running 
 
-## Learn More
+Use the following command to run :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Demo 
+- https://codesandbox.io/p/github/AvinashDalvi89/react-cerbos-demo
+
+### Cerbos Links 
+- Playground : https://play.cerbos.dev/p/LnQCrZuCzZ660bda75BB9iF2qQdLutza
