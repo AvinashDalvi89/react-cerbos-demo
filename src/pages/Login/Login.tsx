@@ -81,7 +81,7 @@ export default function Login() {
         <tr >
           <td >Garry</td>
           <td >pwd123</td>
-          <td >marketing</td>
+          <td >Markt</td>
         </tr>
       </tbody>
     </table>

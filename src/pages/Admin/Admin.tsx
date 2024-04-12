@@ -1,5 +1,6 @@
-import React, { FC, useState } from 'react'; 
-import { getCerbosClient } from '../../lib/Cerbos';
+import React, { FC, useState ,useRef} from 'react'; 
+//import { getCerbosClient } from '../../lib/Cerbos';
+import { getCerbosClient } from '../../lib/CerbosEmbeded';
 import { useEffect } from 'react';
 interface UserDetails {
     username: string;
@@ -8,6 +9,7 @@ interface UserDetails {
   }
 const Admin: FC = () => {
     let userDetails: UserDetails | null = JSON.parse(localStorage.getItem('userDetails') || '');
+    const initialized = useRef(false);
     const [data, setData] = useState(Boolean);
     
     async function checkAccess() {
@@ -33,12 +35,14 @@ const Admin: FC = () => {
         }); // => true
         console.log(contactQueryPlan); 
         setData(contactQueryPlan);
-        return contactQueryPlan;
         
     }
     useEffect(() => {
-       checkAccess();
-     }, [userDetails]); // Pass an empty array to only call the function once on mount.
+        if (!initialized.current) {
+            initialized.current = true
+            checkAccess();
+        }
+     }, []); // Pass an empty array to only call the function once on mount.
  
      if (data) {
         return (

@@ -2,7 +2,7 @@
 import { HTTP } from "@cerbos/http";
 
 export function getCerbosClient(){
-    let usePlayground = false;
+    let usePlayground = true;
     if(usePlayground){
         const cerbos = new HTTP("https://demo-pdp.cerbos.cloud", {
             playgroundInstance: "LnQCrZuCzZ660bda75BB9iF2qQdLutza", // The playground instance ID to test
